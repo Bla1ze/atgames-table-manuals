@@ -32,4 +32,4 @@ This repo currently contains a variety of user manuals for many AtGames pinball 
 3. Download the manual using the **Download** button.
 4. Use the PDF to reference gameplay instructions, setup, troubleshooting, and more for your AtGames pinball table.
 
-##Please note: All these files have been shared by AtGames themselves and are publicly available elsewhere.
+## Please note: All these files have been shared by AtGames themselves and are publicly available elsewhere.
