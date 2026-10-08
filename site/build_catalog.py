@@ -5,8 +5,9 @@ For every PDF: render its cover (page 1) to public/covers/<slug>.webp if it is
 missing, and give it an entry in public/manuals.json if it has none. A new
 entry gets a title from the PDF's first line (or its file name), a group
 guessed from the name, and an empty description, which the page shows as
-"Description coming soon" until one is written by hand. Entries whose PDF is
-gone are removed. Hand-written titles and descriptions are never touched.
+"Description coming soon" until one is written by hand, and no themes (the
+search matches titles and themes). Entries whose PDF is gone are removed.
+Hand-written titles, descriptions and themes are never touched.
 
 Needs pdftoppm/pdftotext/pdfinfo (poppler) and cwebp. Run from anywhere:
     python3 site/build_catalog.py
@@ -88,7 +89,7 @@ def main():
             title = guess_title(pdf)
             entry = {"slug": slug, "title": title, "group": guess_group(pdf.name),
                      "kind": "EM+" if title.endswith("EM+") else "Deluxe" if "Deluxe" in title else None,
-                     "description": "", "file": pdf.name, "cover": f"covers/{slug}.webp"}
+                     "description": "", "themes": [], "file": pdf.name, "cover": f"covers/{slug}.webp"}
             added.append(title)
         entry["pages"], entry["bytes"] = pages, size   # the PDF may have been replaced
         by_file[pdf.name] = entry

@@ -8,7 +8,18 @@
   "file": "baby-shark-user-manual.pdf",
   "pages": 8,
   "bytes": 5121094,
-  "cover": "covers/baby-shark.webp"
+  "cover": "covers/baby-shark.webp",
+  "themes": [
+   "kids",
+   "family",
+   "ocean",
+   "sea",
+   "underwater",
+   "sharks",
+   "animals",
+   "music",
+   "cartoon"
+  ]
  },
  {
   "slug": "zaccaria-battle-em",
@@ -19,7 +30,16 @@
   "file": "zaccaria-battle-em-user-manual.pdf",
   "cover": "covers/zaccaria-battle-em.webp",
   "pages": 5,
-  "bytes": 19325137
+  "bytes": 19325137,
+  "themes": [
+   "navy",
+   "ships",
+   "war",
+   "military",
+   "ocean",
+   "retro",
+   "classic"
+  ]
  },
  {
   "slug": "zaccaria-blackbelt-deluxe",
@@ -30,7 +50,13 @@
   "file": "zaccaria-blackbelt-deluxe-user-manual.pdf",
   "pages": 5,
   "bytes": 7094837,
-  "cover": "covers/zaccaria-blackbelt-deluxe.webp"
+  "cover": "covers/zaccaria-blackbelt-deluxe.webp",
+  "themes": [
+   "martial arts",
+   "karate",
+   "ninja",
+   "fighting"
+  ]
  },
  {
   "slug": "zaccaria-city-golf",
@@ -41,7 +67,12 @@
   "file": "zaccaria-city-golf-user-manual.pdf",
   "cover": "covers/zaccaria-city-golf.webp",
   "pages": 5,
-  "bytes": 12294031
+  "bytes": 12294031,
+  "themes": [
+   "golf",
+   "sports",
+   "city"
+  ]
  },
  {
   "slug": "zaccaria-clown-deluxe",
@@ -52,7 +83,13 @@
   "file": "zaccaria_clown_deluxe_user_manual.pdf",
   "pages": 6,
   "bytes": 12719667,
-  "cover": "covers/zaccaria-clown-deluxe.webp"
+  "cover": "covers/zaccaria-clown-deluxe.webp",
+  "themes": [
+   "circus",
+   "clowns",
+   "carnival",
+   "funhouse"
+  ]
  },
  {
   "slug": "dinosaur-dynasty-3-sky-titans",
@@ -63,7 +100,13 @@
   "file": "dinosaur-dynasty-3-sky-titans-user-manual.pdf",
   "pages": 8,
   "bytes": 28578517,
-  "cover": "covers/dinosaur-dynasty-3-sky-titans.webp"
+  "cover": "covers/dinosaur-dynasty-3-sky-titans.webp",
+  "themes": [
+   "dinosaurs",
+   "prehistoric",
+   "flying",
+   "sky"
+  ]
  },
  {
   "slug": "dr-seuss-pinball-pack-2",
@@ -74,7 +117,13 @@
   "file": "Dr.Seuss_Pinball_Pack_2_User_Manual.pdf",
   "pages": 20,
   "bytes": 812777,
-  "cover": "covers/dr-seuss-pinball-pack-2.webp"
+  "cover": "covers/dr-seuss-pinball-pack-2.webp",
+  "themes": [
+   "kids",
+   "family",
+   "books",
+   "cartoon"
+  ]
  },
  {
   "slug": "zaccaria-earth-wind-fire-deluxe",
@@ -85,7 +134,14 @@
   "file": "zaccaria-earth-wind-fire-deluxe-user-manual.pdf",
   "pages": 6,
   "bytes": 7429341,
-  "cover": "covers/zaccaria-earth-wind-fire-deluxe.webp"
+  "cover": "covers/zaccaria-earth-wind-fire-deluxe.webp",
+  "themes": [
+   "magic",
+   "wizards",
+   "fantasy",
+   "dragons",
+   "elements"
+  ]
  },
  {
   "slug": "firefighter-urban",
@@ -96,7 +152,14 @@
   "file": "firefighter-urban-user-manual.pdf",
   "cover": "covers/firefighter-urban.webp",
   "pages": 9,
-  "bytes": 27812310
+  "bytes": 27812310,
+  "themes": [
+   "firefighters",
+   "fire",
+   "rescue",
+   "city",
+   "emergency"
+  ]
  },
  {
   "slug": "firefighter-wildlands",
@@ -107,7 +170,15 @@
   "file": "firefighter-wildlands-user-manual.pdf",
   "pages": 8,
   "bytes": 4459961,
-  "cover": "covers/firefighter-wildlands.webp"
+  "cover": "covers/firefighter-wildlands.webp",
+  "themes": [
+   "firefighters",
+   "fire",
+   "rescue",
+   "forest",
+   "wildfire",
+   "emergency"
+  ]
  },
  {
   "slug": "zaccaria-future-world-deluxe",
@@ -118,7 +189,14 @@
   "file": "zaccaria-future-world-deluxe-user-manual.pdf",
   "pages": 6,
   "bytes": 24888041,
-  "cover": "covers/zaccaria-future-world-deluxe.webp"
+  "cover": "covers/zaccaria-future-world-deluxe.webp",
+  "themes": [
+   "space",
+   "planets",
+   "sci-fi",
+   "solar system",
+   "astronauts"
+  ]
  },
  {
   "slug": "zaccaria-gangsters",
@@ -129,7 +207,15 @@
   "file": "zaccaria-gangsters-user-manual.pdf",
   "pages": 4,
   "bytes": 21054704,
-  "cover": "covers/zaccaria-gangsters.webp"
+  "cover": "covers/zaccaria-gangsters.webp",
+  "themes": [
+   "crime",
+   "mafia",
+   "mob",
+   "casino",
+   "gambling",
+   "city"
+  ]
  },
  {
   "slug": "zaccaria-granada-deluxe",
@@ -140,7 +226,14 @@
   "file": "zaccaria-granada-deluxe-user-manual.pdf",
   "pages": 7,
   "bytes": 19703147,
-  "cover": "covers/zaccaria-granada-deluxe.webp"
+  "cover": "covers/zaccaria-granada-deluxe.webp",
+  "themes": [
+   "spain",
+   "culture",
+   "food",
+   "travel",
+   "city"
+  ]
  },
  {
   "slug": "zaccaria-locomotion-deluxe",
@@ -151,7 +244,15 @@
   "file": "zaccaria-locomotion-deluxe-user-manual.pdf",
   "pages": 7,
   "bytes": 41866345,
-  "cover": "covers/zaccaria-locomotion-deluxe.webp"
+  "cover": "covers/zaccaria-locomotion-deluxe.webp",
+  "themes": [
+   "wild west",
+   "western",
+   "cowboys",
+   "trains",
+   "railroad",
+   "bandits"
+  ]
  },
  {
   "slug": "zaccaria-magic-castle-deluxe",
@@ -162,7 +263,15 @@
   "file": "zaccaria-magic-castle-deluxe-user-manual.pdf",
   "pages": 6,
   "bytes": 4937760,
-  "cover": "covers/zaccaria-magic-castle-deluxe.webp"
+  "cover": "covers/zaccaria-magic-castle-deluxe.webp",
+  "themes": [
+   "castle",
+   "fantasy",
+   "magic",
+   "medieval",
+   "knights",
+   "dungeon"
+  ]
  },
  {
   "slug": "zaccaria-magic-castle-em",
@@ -173,7 +282,17 @@
   "file": "zaccaria-magic-castle-em-user-manual.pdf",
   "pages": 5,
   "bytes": 18172925,
-  "cover": "covers/zaccaria-magic-castle-em.webp"
+  "cover": "covers/zaccaria-magic-castle-em.webp",
+  "themes": [
+   "castle",
+   "horror",
+   "spooky",
+   "haunted",
+   "halloween",
+   "bats",
+   "retro",
+   "classic"
+  ]
  },
  {
   "slug": "zaccaria-mexico-deluxe",
@@ -184,7 +303,14 @@
   "file": "zaccaria-mexico-deluxe-user-manual.pdf",
   "pages": 6,
   "bytes": 24056187,
-  "cover": "covers/zaccaria-mexico-deluxe.webp"
+  "cover": "covers/zaccaria-mexico-deluxe.webp",
+  "themes": [
+   "mexico",
+   "festival",
+   "day of the dead",
+   "culture",
+   "travel"
+  ]
  },
  {
   "slug": "zaccaria-moon-flight-deluxe",
@@ -195,7 +321,14 @@
   "file": "zaccaria-moon-flight-deluxe-user-manual.pdf",
   "pages": 6,
   "bytes": 5486473,
-  "cover": "covers/zaccaria-moon-flight-deluxe.webp"
+  "cover": "covers/zaccaria-moon-flight-deluxe.webp",
+  "themes": [
+   "space",
+   "moon",
+   "rockets",
+   "astronauts",
+   "sci-fi"
+  ]
  },
  {
   "slug": "atgames-natural-history-2",
@@ -206,7 +339,18 @@
   "file": "atgames-natural-history-2-user-manual.pdf",
   "pages": 24,
   "bytes": 48852298,
-  "cover": "covers/atgames-natural-history-2.webp"
+  "cover": "covers/atgames-natural-history-2.webp",
+  "themes": [
+   "nature",
+   "animals",
+   "africa",
+   "egypt",
+   "ocean",
+   "sea",
+   "polar",
+   "arctic",
+   "history"
+  ]
  },
  {
   "slug": "atgames-natural-history-3",
@@ -217,7 +361,18 @@
   "file": "atgames-natural-history-3-user-manual.pdf",
   "pages": 22,
   "bytes": 29217663,
-  "cover": "covers/atgames-natural-history-3.webp"
+  "cover": "covers/atgames-natural-history-3.webp",
+  "themes": [
+   "nature",
+   "dinosaurs",
+   "insects",
+   "bugs",
+   "weather",
+   "storms",
+   "microbes",
+   "science",
+   "history"
+  ]
  },
  {
   "slug": "zaccaria-nautilus-em",
@@ -228,7 +383,15 @@
   "file": "zaccaria_nautilus_em_user_manual.pdf",
   "pages": 6,
   "bytes": 22977225,
-  "cover": "covers/zaccaria-nautilus-em.webp"
+  "cover": "covers/zaccaria-nautilus-em.webp",
+  "themes": [
+   "ocean",
+   "sea",
+   "underwater",
+   "submarine",
+   "retro",
+   "classic"
+  ]
  },
  {
   "slug": "police-street-patrol",
@@ -239,7 +402,16 @@
   "file": "police-street-patrol-user-manual.pdf",
   "pages": 8,
   "bytes": 33337415,
-  "cover": "covers/police-street-patrol.webp"
+  "cover": "covers/police-street-patrol.webp",
+  "themes": [
+   "police",
+   "cops",
+   "crime",
+   "city",
+   "cars",
+   "chase",
+   "emergency"
+  ]
  },
  {
   "slug": "zaccaria-primal-carnage-deluxe",
@@ -250,7 +422,12 @@
   "file": "zaccaria-primal-carnage-deluxe-user-manual.pdf",
   "pages": 7,
   "bytes": 4266757,
-  "cover": "covers/zaccaria-primal-carnage-deluxe.webp"
+  "cover": "covers/zaccaria-primal-carnage-deluxe.webp",
+  "themes": [
+   "dinosaurs",
+   "prehistoric",
+   "jungle"
+  ]
  },
  {
   "slug": "zaccaria-primal-carnage-retro",
@@ -261,7 +438,13 @@
   "file": "Zaccaria Primal Carnage Retro_User Manual - zaccaria-primal-carnage-retro-user-manual.pdf",
   "pages": 4,
   "bytes": 22969267,
-  "cover": "covers/zaccaria-primal-carnage-retro.webp"
+  "cover": "covers/zaccaria-primal-carnage-retro.webp",
+  "themes": [
+   "dinosaurs",
+   "prehistoric",
+   "retro",
+   "classic"
+  ]
  },
  {
   "slug": "zaccaria-primal-carnage",
@@ -272,7 +455,12 @@
   "file": "zaccaria-primal-carnage-user-manual.pdf",
   "pages": 5,
   "bytes": 15410422,
-  "cover": "covers/zaccaria-primal-carnage.webp"
+  "cover": "covers/zaccaria-primal-carnage.webp",
+  "themes": [
+   "dinosaurs",
+   "prehistoric",
+   "80s"
+  ]
  },
  {
   "slug": "rare-pinball-table",
@@ -283,7 +471,15 @@
   "file": "rare-pinball-table-user-manual.pdf",
   "pages": 22,
   "bytes": 23916340,
-  "cover": "covers/rare-pinball-table.webp"
+  "cover": "covers/rare-pinball-table.webp",
+  "themes": [
+   "video games",
+   "pirates",
+   "fighting",
+   "martial arts",
+   "toads",
+   "cartoon"
+  ]
  },
  {
   "slug": "zaccaria-shooting-the-rapids-deluxe",
@@ -294,7 +490,15 @@
   "file": "zaccaria-shooting-the-rapids-deluxe-user-manual.pdf",
   "pages": 6,
   "bytes": 7090380,
-  "cover": "covers/zaccaria-shooting-the-rapids-deluxe.webp"
+  "cover": "covers/zaccaria-shooting-the-rapids-deluxe.webp",
+  "themes": [
+   "river",
+   "canoe",
+   "rapids",
+   "nature",
+   "native american",
+   "outdoors"
+  ]
  },
  {
   "slug": "zaccaria-soccer-kings-deluxe",
@@ -305,7 +509,12 @@
   "file": "zaccaria-soccer-kings-deluxe-user-manual.pdf",
   "pages": 5,
   "bytes": 6872022,
-  "cover": "covers/zaccaria-soccer-kings-deluxe.webp"
+  "cover": "covers/zaccaria-soccer-kings-deluxe.webp",
+  "themes": [
+   "soccer",
+   "football",
+   "sports"
+  ]
  },
  {
   "slug": "zaccaria-pinball-space-shuttle-deluxe",
@@ -316,7 +525,15 @@
   "file": "zaccaria-pinball-space-shuttle-deluxe-user-manual.pdf",
   "pages": 7,
   "bytes": 6316635,
-  "cover": "covers/zaccaria-pinball-space-shuttle-deluxe.webp"
+  "cover": "covers/zaccaria-pinball-space-shuttle-deluxe.webp",
+  "themes": [
+   "space",
+   "shuttle",
+   "rockets",
+   "mars",
+   "astronauts",
+   "sci-fi"
+  ]
  },
  {
   "slug": "zaccaria-star-god-em",
@@ -327,7 +544,16 @@
   "file": "zaccaria-star-god-em-user-manual.pdf",
   "pages": 5,
   "bytes": 31062822,
-  "cover": "covers/zaccaria-star-god-em.webp"
+  "cover": "covers/zaccaria-star-god-em.webp",
+  "themes": [
+   "space",
+   "stars",
+   "mythology",
+   "sun",
+   "moon",
+   "retro",
+   "classic"
+  ]
  },
  {
   "slug": "zaccaria-stars-phoenix-em",
@@ -338,7 +564,15 @@
   "file": "zaccaria-stars-phoenix-em-user-manual.pdf",
   "pages": 5,
   "bytes": 13965969,
-  "cover": "covers/zaccaria-stars-phoenix-em.webp"
+  "cover": "covers/zaccaria-stars-phoenix-em.webp",
+  "themes": [
+   "casino",
+   "gambling",
+   "cards",
+   "las vegas",
+   "retro",
+   "classic"
+  ]
  },
  {
   "slug": "zaccaria-stargod-deluxe",
@@ -349,7 +583,14 @@
   "file": "zaccaria-stargod-deluxe-user-manual.pdf",
   "pages": 6,
   "bytes": 4703056,
-  "cover": "covers/zaccaria-stargod-deluxe.webp"
+  "cover": "covers/zaccaria-stargod-deluxe.webp",
+  "themes": [
+   "fantasy",
+   "mythology",
+   "magic",
+   "knights",
+   "armor"
+  ]
  },
  {
   "slug": "zaccaria-supersonic-deluxe",
@@ -360,7 +601,14 @@
   "file": "zaccaria-supersonic-deluxe-user-manual.pdf",
   "pages": 5,
   "bytes": 9457131,
-  "cover": "covers/zaccaria-supersonic-deluxe.webp"
+  "cover": "covers/zaccaria-supersonic-deluxe.webp",
+  "themes": [
+   "jets",
+   "planes",
+   "aviation",
+   "military",
+   "air force"
+  ]
  },
  {
   "slug": "zaccaria-supersonic-em",
@@ -371,7 +619,15 @@
   "file": "zaccaria-supersonic-em-user-manual.pdf",
   "pages": 6,
   "bytes": 18484488,
-  "cover": "covers/zaccaria-supersonic-em.webp"
+  "cover": "covers/zaccaria-supersonic-em.webp",
+  "themes": [
+   "jets",
+   "planes",
+   "aviation",
+   "military",
+   "retro",
+   "classic"
+  ]
  },
  {
   "slug": "atgames-taito-pinball-tables-volume-1",
@@ -382,7 +638,18 @@
   "file": "AtGames-TAITO-Pinball-Tables-Volume-1-User-Manual.pdf",
   "pages": 9,
   "bytes": 763414,
-  "cover": "covers/atgames-taito-pinball-tables-volume-1.webp"
+  "cover": "covers/atgames-taito-pinball-tables-volume-1.webp",
+  "themes": [
+   "arcade",
+   "retro",
+   "space",
+   "shooter",
+   "war",
+   "military",
+   "fantasy",
+   "aliens",
+   "sci-fi"
+  ]
  },
  {
   "slug": "atgames-taito-pinball-tables-volume-2",
@@ -393,7 +660,15 @@
   "file": "AtGames-TAITO-Pinball-Tables-Volume-2-User-Manual.pdf",
   "pages": 9,
   "bytes": 765128,
-  "cover": "covers/atgames-taito-pinball-tables-volume-2.webp"
+  "cover": "covers/atgames-taito-pinball-tables-volume-2.webp",
+  "themes": [
+   "arcade",
+   "retro",
+   "spy",
+   "war",
+   "military",
+   "cartoon"
+  ]
  },
  {
   "slug": "tmnt-pinball-table",
@@ -404,7 +679,16 @@
   "file": "tmnt-pinball-table-user-manual.pdf",
   "pages": 8,
   "bytes": 6977271,
-  "cover": "covers/tmnt-pinball-table.webp"
+  "cover": "covers/tmnt-pinball-table.webp",
+  "themes": [
+   "turtles",
+   "ninja",
+   "martial arts",
+   "comics",
+   "cartoon",
+   "city",
+   "sewer"
+  ]
  },
  {
   "slug": "zaccaria-tropical-deluxe",
@@ -415,7 +699,14 @@
   "file": "zaccaria-tropical-deluxe-user-manual.pdf",
   "pages": 7,
   "bytes": 1023160,
-  "cover": "covers/zaccaria-tropical-deluxe.webp"
+  "cover": "covers/zaccaria-tropical-deluxe.webp",
+  "themes": [
+   "beach",
+   "tropical",
+   "island",
+   "surf",
+   "summer"
+  ]
  },
  {
   "slug": "zaccaria-tropical-em",
@@ -426,7 +717,16 @@
   "file": "zaccaria_tropical_em_user_manual.pdf",
   "pages": 6,
   "bytes": 18657044,
-  "cover": "covers/zaccaria-tropical-em.webp"
+  "cover": "covers/zaccaria-tropical-em.webp",
+  "themes": [
+   "beach",
+   "tropical",
+   "island",
+   "surf",
+   "summer",
+   "retro",
+   "classic"
+  ]
  },
  {
   "slug": "zaccaria-wild-games",
@@ -437,7 +737,15 @@
   "file": "zaccaria-wild-games-user-manual.pdf",
   "cover": "covers/zaccaria-wild-games.webp",
   "pages": 6,
-  "bytes": 15011318
+  "bytes": 15011318,
+  "themes": [
+   "extreme sports",
+   "skateboarding",
+   "snowboarding",
+   "surfing",
+   "bikes",
+   "sports"
+  ]
  },
  {
   "slug": "zaccaria-woods-queen-em",
@@ -448,7 +756,14 @@
   "file": "zaccaria-woods-queen-em-user-manual.pdf",
   "pages": 6,
   "bytes": 1518317,
-  "cover": "covers/zaccaria-woods-queen-em.webp"
+  "cover": "covers/zaccaria-woods-queen-em.webp",
+  "themes": [
+   "jungle",
+   "animals",
+   "nature",
+   "retro",
+   "classic"
+  ]
  },
  {
   "slug": "zaccaria-zankor-deluxe",
@@ -459,6 +774,12 @@
   "file": "zaccaria-zankor-deluxe-user-manual.pdf",
   "pages": 6,
   "bytes": 9001266,
-  "cover": "covers/zaccaria-zankor-deluxe.webp"
+  "cover": "covers/zaccaria-zankor-deluxe.webp",
+  "themes": [
+   "jungle",
+   "adventure",
+   "spiders",
+   "exploration"
+  ]
  }
 ]

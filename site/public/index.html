@@ -100,7 +100,7 @@
 
 <div class="controls">
   <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
-    <input id="q" type="search" placeholder="Search tables, modes, themes…" aria-label="Search manuals"></label>
+    <input id="q" type="search" placeholder="Search tables or themes (space, dinosaurs, beach…)" aria-label="Search manuals"></label>
   <div class="chips" role="group" aria-label="Filter">
     <button class="chip" data-f="all" aria-pressed="true">All</button>
     <button class="chip" data-f="Zaccaria" aria-pressed="false">Zaccaria</button>
@@ -127,7 +127,7 @@ function render() {
   const term = q.value.trim().toLowerCase();
   const list = manuals.filter(m =>
     (filter === 'all' || (filter === 'other' ? (m.group === 'Original' || m.group === 'Licensed') : m.group === filter)) &&
-    (!term || (m.title + ' ' + m.description + ' ' + m.group + ' ' + (m.kind || '')).toLowerCase().includes(term)));
+    (!term || [m.title, m.group, m.kind || '', ...(m.themes || [])].join(' ').toLowerCase().includes(term)));
   count.textContent = `${list.length} of ${manuals.length} manuals`;
   grid.innerHTML = list.length ? list.map(m => `
     <article class="card">
