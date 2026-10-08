@@ -152,7 +152,9 @@ document.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () =
   render();
 }));
 q.addEventListener('input', render);
-fetch('manuals.json').then(r => r.json()).then(d => { manuals = d; render(); })
+// no-cache: revalidate every visit, so a page and catalog from different
+// publishes (Pages caches both for 10 minutes) can't disagree.
+fetch('manuals.json', { cache: 'no-cache' }).then(r => r.json()).then(d => { manuals = d; render(); })
   .catch(() => { grid.innerHTML = '<p class="empty">Couldn\'t load the manual list. Try reloading.</p>'; });
 </script>
 </body>
