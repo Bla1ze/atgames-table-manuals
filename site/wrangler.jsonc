@@ -1,0 +1,6 @@
+{
+  "name": "atgames-manuals",
+  "compatibility_date": "2026-10-01",
+  // Only public/ is served (the config and wrangler's cache stay private).
+  "assets": { "directory": "./public" }
+}
