@@ -63,7 +63,7 @@ def guess_title(pdf):
 def guess_group(name):
     n = name.lower()
     if "zaccaria" in n:
-        return "Zaccaria"
+        return "Magic Pixel"   # Zaccaria tables, labeled by their developer's current name
     if "pack" in n or "volume" in n or "natural-history" in n:
         return "Pack"
     return "Original"
@@ -89,7 +89,7 @@ def main():
             title = guess_title(pdf)
             entry = {"slug": slug, "title": title, "group": guess_group(pdf.name),
                      "kind": "EM+" if title.endswith("EM+") else "Deluxe" if "Deluxe" in title else None,
-                     "description": "", "themes": [], "file": pdf.name, "cover": f"covers/{slug}.webp"}
+                     "description": "", "themes": ["zaccaria"] if "zaccaria" in pdf.name.lower() else [], "file": pdf.name, "cover": f"covers/{slug}.webp"}
             added.append(title)
         entry["pages"], entry["bytes"] = pages, size   # the PDF may have been replaced
         by_file[pdf.name] = entry

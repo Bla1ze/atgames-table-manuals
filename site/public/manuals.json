@@ -24,7 +24,7 @@
  {
   "slug": "zaccaria-battle-em",
   "title": "Battle EM+",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "EM+",
   "description": "A naval battle in the EM+ style: gather ammo, launch torpedoes and work through five combat missions.",
   "file": "zaccaria-battle-em-user-manual.pdf",
@@ -38,13 +38,14 @@
    "military",
    "ocean",
    "retro",
-   "classic"
+   "classic",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-blackbelt-deluxe",
   "title": "Blackbelt Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1986 martial-arts table reimagined, with nine modes, five side missions and combo-driven multiball.",
   "file": "zaccaria-blackbelt-deluxe-user-manual.pdf",
@@ -55,13 +56,14 @@
    "martial arts",
    "karate",
    "ninja",
-   "fighting"
+   "fighting",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-city-golf",
   "title": "City Golf",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": null,
   "description": "A relaxed golf-course table first made for mobile in 2013, built around precision shots and steady combos.",
   "file": "zaccaria-city-golf-user-manual.pdf",
@@ -71,13 +73,14 @@
   "themes": [
    "golf",
    "sports",
-   "city"
+   "city",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-clown-deluxe",
   "title": "Clown Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1985 Clown table modernized: spell C-L-O-W-N and play four zany mini games in a chaotic circus theme.",
   "file": "zaccaria_clown_deluxe_user_manual.pdf",
@@ -88,7 +91,8 @@
    "circus",
    "clowns",
    "carnival",
-   "funhouse"
+   "funhouse",
+   "zaccaria"
   ]
  },
  {
@@ -128,7 +132,7 @@
  {
   "slug": "zaccaria-earth-wind-fire-deluxe",
   "title": "Earth Wind Fire Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1981 original turned into a magic quest: five spell modes and five mini games among wizards and dragons.",
   "file": "zaccaria-earth-wind-fire-deluxe-user-manual.pdf",
@@ -140,7 +144,8 @@
    "wizards",
    "fantasy",
    "dragons",
-   "elements"
+   "elements",
+   "zaccaria"
   ]
  },
  {
@@ -183,7 +188,7 @@
  {
   "slug": "zaccaria-future-world-deluxe",
   "title": "Future World Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1978 space table rebuilt: five cosmic modes and six planet-themed mini games across the solar system.",
   "file": "zaccaria-future-world-deluxe-user-manual.pdf",
@@ -195,13 +200,14 @@
    "planets",
    "sci-fi",
    "solar system",
-   "astronauts"
+   "astronauts",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-gangsters",
   "title": "Gangsters",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": null,
   "description": "A 2011 table brought back from the vault: climb the 90s criminal underworld by cracking safes and taking risks.",
   "file": "zaccaria-gangsters-user-manual.pdf",
@@ -214,13 +220,14 @@
    "mob",
    "casino",
    "gambling",
-   "city"
+   "city",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-granada-deluxe",
   "title": "Granada Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1974 Granada reimagined around the culture and landmarks of Andalusia, with food-themed modes and mini games.",
   "file": "zaccaria-granada-deluxe-user-manual.pdf",
@@ -232,13 +239,14 @@
    "culture",
    "food",
    "travel",
-   "city"
+   "city",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-locomotion-deluxe",
   "title": "Locomotion Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "A Wild West train under bandit attack: fight off a gang of colorful outlaws along the tracks.",
   "file": "zaccaria-locomotion-deluxe-user-manual.pdf",
@@ -251,13 +259,14 @@
    "cowboys",
    "trains",
    "railroad",
-   "bandits"
+   "bandits",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-magic-castle-deluxe",
   "title": "Magic Castle Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1980 fantasy fortress revamped: six C-A-S-T-L-E modes, four mini games, and dungeon and cage bonuses.",
   "file": "zaccaria-magic-castle-deluxe-user-manual.pdf",
@@ -270,13 +279,14 @@
    "magic",
    "medieval",
    "knights",
-   "dungeon"
+   "dungeon",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-magic-castle-em",
   "title": "Magic Castle EM+",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "EM+",
   "description": "A spooky castle in the EM+ style: six eerie objectives and bonuses like Bat, Dark and Trapdoor.",
   "file": "zaccaria-magic-castle-em-user-manual.pdf",
@@ -291,13 +301,14 @@
    "halloween",
    "bats",
    "retro",
-   "classic"
+   "classic",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-mexico-deluxe",
   "title": "Mexico Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1986 Mexico table refreshed with festival color, six modes, Mexico Mode and multiball.",
   "file": "zaccaria-mexico-deluxe-user-manual.pdf",
@@ -309,13 +320,14 @@
    "festival",
    "day of the dead",
    "culture",
-   "travel"
+   "travel",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-moon-flight-deluxe",
   "title": "Moon Flight Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1976 space table evolved: five mission modes, a repair dock and a high-stakes launch ramp.",
   "file": "zaccaria-moon-flight-deluxe-user-manual.pdf",
@@ -327,7 +339,8 @@
    "moon",
    "rockets",
    "astronauts",
-   "sci-fi"
+   "sci-fi",
+   "zaccaria"
   ]
  },
  {
@@ -377,7 +390,7 @@
  {
   "slug": "zaccaria-nautilus-em",
   "title": "Nautilus EM+",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "EM+",
   "description": "A deep-sea table in the EM+ style, mixing electro-mechanical simplicity with early solid-state bonus play.",
   "file": "zaccaria_nautilus_em_user_manual.pdf",
@@ -390,7 +403,8 @@
    "underwater",
    "submarine",
    "retro",
-   "classic"
+   "classic",
+   "zaccaria"
   ]
  },
  {
@@ -416,7 +430,7 @@
  {
   "slug": "zaccaria-primal-carnage-deluxe",
   "title": "Primal Carnage Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "Humans versus dinosaurs on a full-featured table with ramps, drop targets, combos and multiball modes.",
   "file": "zaccaria-primal-carnage-deluxe-user-manual.pdf",
@@ -426,13 +440,14 @@
   "themes": [
    "dinosaurs",
    "prehistoric",
-   "jungle"
+   "jungle",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-primal-carnage-retro",
   "title": "Primal Carnage Retro",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": null,
   "description": "A 1960s-style Primal Carnage table stripped to the basics: bumpers, slingshots, spot targets and one eject hole.",
   "file": "Zaccaria Primal Carnage Retro_User Manual - zaccaria-primal-carnage-retro-user-manual.pdf",
@@ -443,13 +458,14 @@
    "dinosaurs",
    "prehistoric",
    "retro",
-   "classic"
+   "classic",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-primal-carnage",
   "title": "Primal Carnage Solid State",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": null,
   "description": "An 80s-style Primal Carnage table where you pick a side, human or dinosaur, with waving spot targets.",
   "file": "zaccaria-primal-carnage-user-manual.pdf",
@@ -459,7 +475,8 @@
   "themes": [
    "dinosaurs",
    "prehistoric",
-   "80s"
+   "80s",
+   "zaccaria"
   ]
  },
  {
@@ -484,7 +501,7 @@
  {
   "slug": "zaccaria-shooting-the-rapids-deluxe",
   "title": "Shooting the Rapids Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1979 river-canoeing table taken further, with rapids, sacred rivers and challenges like Rapid Combo.",
   "file": "zaccaria-shooting-the-rapids-deluxe-user-manual.pdf",
@@ -497,13 +514,14 @@
    "rapids",
    "nature",
    "native american",
-   "outdoors"
+   "outdoors",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-soccer-kings-deluxe",
   "title": "Soccer Kings Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1982 football table modernized: kick-offs, counter attacks, corners and five match modes.",
   "file": "zaccaria-soccer-kings-deluxe-user-manual.pdf",
@@ -513,13 +531,14 @@
   "themes": [
    "soccer",
    "football",
-   "sports"
+   "sports",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-pinball-space-shuttle-deluxe",
   "title": "Space Shuttle Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1980 Space Shuttle modernized: launch from Earth, cross space, survive a meteor storm and land on Mars.",
   "file": "zaccaria-pinball-space-shuttle-deluxe-user-manual.pdf",
@@ -532,13 +551,14 @@
    "rockets",
    "mars",
    "astronauts",
-   "sci-fi"
+   "sci-fi",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-star-god-em",
   "title": "Star God EM+",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "EM+",
   "description": "A celestial table in the EM+ style: capture the Sun and Moon and spell S-E-R-P-E-N-T-S across ten objectives.",
   "file": "zaccaria-star-god-em-user-manual.pdf",
@@ -552,13 +572,14 @@
    "sun",
    "moon",
    "retro",
-   "classic"
+   "classic",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-stars-phoenix-em",
   "title": "Star's Phoenix EM+",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "EM+",
   "description": "A high-stakes casino theme in the EM+ style, with quick shots and risk-and-reward bonuses.",
   "file": "zaccaria-stars-phoenix-em-user-manual.pdf",
@@ -571,13 +592,14 @@
    "cards",
    "las vegas",
    "retro",
-   "classic"
+   "classic",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-stargod-deluxe",
   "title": "Stargod Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1980 Star God reimagined: ten SWORD and ARMOR modes, six HELMET mini games and Sunrise Mode.",
   "file": "zaccaria-stargod-deluxe-user-manual.pdf",
@@ -589,13 +611,14 @@
    "mythology",
    "magic",
    "knights",
-   "armor"
+   "armor",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-supersonic-deluxe",
   "title": "Supersonic Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1977 jet table modernized: five flight modes, the Mayday Loop and Super Sonic mode.",
   "file": "zaccaria-supersonic-deluxe-user-manual.pdf",
@@ -607,13 +630,14 @@
    "planes",
    "aviation",
    "military",
-   "air force"
+   "air force",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-supersonic-em",
   "title": "Supersonic EM+",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "EM+",
   "description": "Jet fighters in the EM+ style: clear shots, multipliers and airborne bonuses like the Thrust Loop.",
   "file": "zaccaria-supersonic-em-user-manual.pdf",
@@ -626,7 +650,8 @@
    "aviation",
    "military",
    "retro",
-   "classic"
+   "classic",
+   "zaccaria"
   ]
  },
  {
@@ -693,7 +718,7 @@
  {
   "slug": "zaccaria-tropical-deluxe",
   "title": "Tropical Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "The 1974 Tropical refreshed as a beach day: four modes, four mini games, kickback and multiball.",
   "file": "zaccaria-tropical-deluxe-user-manual.pdf",
@@ -705,13 +730,14 @@
    "tropical",
    "island",
    "surf",
-   "summer"
+   "summer",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-tropical-em",
   "title": "Tropical EM+",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "EM+",
   "description": "Sun, sand and surf in the EM+ style, with layered bonuses and side goals like Surf King and Blue Lagoon.",
   "file": "zaccaria_tropical_em_user_manual.pdf",
@@ -725,13 +751,14 @@
    "surf",
    "summer",
    "retro",
-   "classic"
+   "classic",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-wild-games",
   "title": "Wild Games",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": null,
   "description": "Extreme sports from a 2012 mobile table, modernized: skate, bike, surf and snowboard through ramps and combos.",
   "file": "zaccaria-wild-games-user-manual.pdf",
@@ -744,13 +771,14 @@
    "snowboarding",
    "surfing",
    "bikes",
-   "sports"
+   "sports",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-woods-queen-em",
   "title": "Wood's Queen EM+",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "EM+",
   "description": "A jungle table in the EM+ style, with bonuses like Vine, Hidden Path and Roar along winding lanes.",
   "file": "zaccaria-woods-queen-em-user-manual.pdf",
@@ -762,13 +790,14 @@
    "animals",
    "nature",
    "retro",
-   "classic"
+   "classic",
+   "zaccaria"
   ]
  },
  {
   "slug": "zaccaria-zankor-deluxe",
   "title": "Zankor Deluxe",
-  "group": "Zaccaria",
+  "group": "Magic Pixel",
   "kind": "Deluxe",
   "description": "An enhanced Zankor jungle trek: make camp, craft a weapon, explore and defeat the spider.",
   "file": "zaccaria-zankor-deluxe-user-manual.pdf",
@@ -779,7 +808,8 @@
    "jungle",
    "adventure",
    "spiders",
-   "exploration"
+   "exploration",
+   "zaccaria"
   ]
  }
 ]

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AtGames Table Manuals</title>
-<meta name="description" content="User manuals for AtGames Legends pinball tables: Zaccaria Deluxe and EM+, TAITO, Natural History, Dr. Seuss and more. PDF downloads.">
+<meta name="description" content="User manuals for AtGames Legends pinball tables: Magic Pixel Deluxe and EM+, TAITO, Natural History, Dr. Seuss and more. PDF downloads.">
 <meta name="theme-color" content="#0c0c0e">
 <link rel="canonical" href="https://bla1ze.github.io/atgames-table-manuals/">
 <meta property="og:type" content="website">
@@ -66,7 +66,7 @@
   .body { padding: 14px 16px 16px; display: flex; flex-direction: column; flex: 1; }
   .tags { display: flex; gap: 6px; margin-bottom: 8px; }
   .t { font: 700 12px/1 var(--display); letter-spacing: .1em; text-transform: uppercase; padding: 4px 7px 3px; border-radius: 3px; background: var(--raised); color: var(--muted); }
-  .t-zaccaria { background: rgba(255,194,61,.14); color: var(--gold); }
+  .t-magic-pixel { background: rgba(255,194,61,.14); color: var(--gold); }
   .t-pack { background: rgba(96,165,250,.13); color: #7cb5ff; }
   .t-licensed, .t-original { background: rgba(74,222,128,.12); color: #4ade80; }
   .t-kind { background: var(--red); color: #fff; }
@@ -103,7 +103,7 @@
     <input id="q" type="search" placeholder="Search tables or themes (space, dinosaurs, beach…)" aria-label="Search manuals"></label>
   <div class="chips" role="group" aria-label="Filter">
     <button class="chip" data-f="all" aria-pressed="true">All</button>
-    <button class="chip" data-f="Zaccaria" aria-pressed="false">Zaccaria</button>
+    <button class="chip" data-f="Magic Pixel" aria-pressed="false">Magic Pixel</button>
     <button class="chip" data-f="Pack" aria-pressed="false">Packs</button>
     <button class="chip" data-f="other" aria-pressed="false">Originals &amp; Licensed</button>
   </div>
@@ -134,7 +134,7 @@ function render() {
       <a class="cover" href="${REPO}/blob/main/${path(m.file)}" target="_blank" rel="noopener" aria-label="View the ${esc(m.title)} manual">
         <img src="${m.cover}" alt="Cover of the ${esc(m.title)} manual" loading="lazy" width="452" height="640"></a>
       <div class="body">
-        <div class="tags"><span class="t t-${m.group.toLowerCase()}">${m.group}</span>${m.kind ? `<span class="t t-kind">${m.kind}</span>` : ''}</div>
+        <div class="tags"><span class="t t-${m.group.toLowerCase().replace(/\s+/g, '-')}">${m.group}</span>${m.kind ? `<span class="t t-kind">${m.kind}</span>` : ''}</div>
         <h2>${esc(m.title)}</h2>
         <p class="desc${m.description ? '' : ' soon'}">${m.description ? esc(m.description) : 'Description coming soon.'}</p>
         <p class="meta">PDF &middot; ${m.pages} pages &middot; ${mb(m.bytes)}</p>
