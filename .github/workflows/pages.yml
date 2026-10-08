@@ -1,0 +1,57 @@
+# Publish site/public to GitHub Pages. When a PDF is added, removed or
+# replaced, site/build_catalog.py first renders its cover and updates
+# manuals.json, and those changes are committed back to main (a commit made
+# with GITHUB_TOKEN doesn't trigger this workflow again).
+name: Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ['*.pdf', 'site/**', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install poppler and webp
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils webp
+
+      - name: Update covers and catalog
+        run: python3 site/build_catalog.py
+
+      - name: Commit catalog changes
+        run: |
+          if [ -n "$(git status --porcelain site/public)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add site/public
+            git commit -m "Catalog: covers and entries for new or changed manuals"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

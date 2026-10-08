@@ -2,6 +2,12 @@
 
 A complete collection of **user manuals for AtGames pinball tables** — downloadable PDF guides for various tables compatible with AtGames platforms.
 
+## 🌐 Browse the manuals
+
+**https://bla1ze.github.io/atgames-table-manuals/** — every manual with its cover, a short description and a download link.
+
+Adding a PDF to the root of this repo is all it takes: on push, a GitHub Action renders its cover, adds it to `site/public/manuals.json` (with "Description coming soon" until one is written there) and republishes the site.
+
 ## 📂 What’s Included
 
 This repo currently contains a variety of user manuals for many AtGames pinball tables, such as:

@@ -58,6 +58,7 @@
   .t-kind { background: var(--red); color: #fff; }
   h2 { font: 700 23px/1.1 var(--display); margin-bottom: 6px; }
   .desc { color: var(--muted); font-size: 14px; flex: 1; }
+  .desc.soon { color: var(--dim); font-style: italic; }
   .meta { color: var(--dim); font-size: 12px; margin: 12px 0 10px; }
   .actions { display: flex; gap: 8px; }
   .btn { flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 6px; text-decoration: none; font-weight: 700; font-size: 13px; padding: 10px 12px; border-radius: 7px; border: 1px solid transparent; }
@@ -121,7 +122,7 @@ function render() {
       <div class="body">
         <div class="tags"><span class="t t-${m.group.toLowerCase()}">${m.group}</span>${m.kind ? `<span class="t t-kind">${m.kind}</span>` : ''}</div>
         <h2>${esc(m.title)}</h2>
-        <p class="desc">${esc(m.description)}</p>
+        <p class="desc${m.description ? '' : ' soon'}">${m.description ? esc(m.description) : 'Description coming soon.'}</p>
         <p class="meta">PDF &middot; ${m.pages} pages &middot; ${mb(m.bytes)}</p>
         <div class="actions">
           <a class="btn btn-dl" href="${REPO}/raw/main/${path(m.file)}" download>${icon('<path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/>')}Download</a>
