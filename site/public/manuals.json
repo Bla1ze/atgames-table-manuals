@@ -11,6 +11,17 @@
   "cover": "covers/baby-shark.webp"
  },
  {
+  "slug": "zaccaria-battle-em",
+  "title": "Battle EM+",
+  "group": "Zaccaria",
+  "kind": "EM+",
+  "description": "",
+  "file": "zaccaria-battle-em-user-manual.pdf",
+  "cover": "covers/zaccaria-battle-em.webp",
+  "pages": 5,
+  "bytes": 19325137
+ },
+ {
   "slug": "zaccaria-blackbelt-deluxe",
   "title": "Blackbelt Deluxe",
   "group": "Zaccaria",
@@ -20,6 +31,17 @@
   "pages": 5,
   "bytes": 7094837,
   "cover": "covers/zaccaria-blackbelt-deluxe.webp"
+ },
+ {
+  "slug": "zaccaria-city-golf",
+  "title": "City Golf",
+  "group": "Zaccaria",
+  "kind": null,
+  "description": "",
+  "file": "zaccaria-city-golf-user-manual.pdf",
+  "cover": "covers/zaccaria-city-golf.webp",
+  "pages": 5,
+  "bytes": 12294031
  },
  {
   "slug": "zaccaria-clown-deluxe",
@@ -64,6 +86,17 @@
   "pages": 6,
   "bytes": 7429341,
   "cover": "covers/zaccaria-earth-wind-fire-deluxe.webp"
+ },
+ {
+  "slug": "firefighter-urban",
+  "title": "Firefighter: Urban",
+  "group": "Original",
+  "kind": null,
+  "description": "",
+  "file": "firefighter-urban-user-manual.pdf",
+  "cover": "covers/firefighter-urban.webp",
+  "pages": 9,
+  "bytes": 27812310
  },
  {
   "slug": "firefighter-wildlands",
@@ -394,6 +427,17 @@
   "pages": 6,
   "bytes": 18657044,
   "cover": "covers/zaccaria-tropical-em.webp"
+ },
+ {
+  "slug": "zaccaria-wild-games",
+  "title": "Wild Games",
+  "group": "Zaccaria",
+  "kind": null,
+  "description": "",
+  "file": "zaccaria-wild-games-user-manual.pdf",
+  "cover": "covers/zaccaria-wild-games.webp",
+  "pages": 6,
+  "bytes": 15011318
  },
  {
   "slug": "zaccaria-woods-queen-em",
