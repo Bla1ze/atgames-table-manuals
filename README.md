@@ -26,7 +26,9 @@ This repo currently contains a variety of user manuals for many AtGames pinball 
 - Zaccaria Magic Castle Deluxe
 - Zaccaria Mexico Deluxe
 - Zaccaria Moon Flight Deluxe
-- Zaccaria Pinball Space Shuttle Deluxe  
+- Zaccaria Pinball Space Shuttle Deluxe
+- Zaccaria Battle EM+, Wild Games and City Golf
+- Firefighter: Urban  
   *(and many more)*
   
 📄 These PDF files are stored directly in the repo for easy access and distribution.
