@@ -4,9 +4,10 @@
 For every PDF: render its cover (page 1) to public/covers/<slug>.webp if it is
 missing, and give it an entry in public/manuals.json if it has none. A new
 entry gets a title from the PDF's first line (or its file name), a group
-guessed from the name, and an empty description, which the page shows as
-"Description coming soon" until one is written by hand, and no themes (the
-search matches titles and themes). Entries whose PDF is gone are removed.
+guessed from the name, and an description taken from the manual's own intro paragraph (page 2, above the
+"Note:"), trimmed to a sentence or two, or empty if none is found (the page
+then shows "Description coming soon"), and no themes (the search matches
+titles and themes). Entries whose PDF is gone are removed.
 Hand-written titles, descriptions and themes are never touched.
 
 Needs pdftoppm/pdftotext/pdfinfo (poppler) and cwebp. Run from anywhere:
@@ -60,6 +61,34 @@ def guess_title(pdf):
     return " ".join(w.upper() if w == "em" else w.capitalize() for w in words)
 
 
+def guess_description(pdf, limit=220):
+    """The manual's intro paragraph, trimmed to whole sentences (<= limit chars)."""
+    try:
+        text = run("pdftotext", "-f", "2", "-l", "2", str(pdf), "-")
+    except subprocess.CalledProcessError:
+        return ""
+    # Intro = the longest paragraph before the "Note:" block.
+    intro = re.split(r"^\s*Note:", text, maxsplit=1, flags=re.M)[0]
+    paras = []
+    for p in re.split(r"\n\s*\n", intro):
+        lines = [l.strip() for l in p.strip().splitlines()]
+        if len(lines) > 1 and len(lines[0]) < 50 and not re.search(r"[.!?]$", lines[0]):
+            lines = lines[1:]   # the table's name printed above its paragraph
+        paras.append(re.sub(r"\s+", " ", re.sub(r"-\n(?=[a-z])", "", "\n".join(lines))).strip())
+    para = max(paras, key=len, default="")
+    # Skip tables of contents and the boilerplate footer.
+    if len(para) < 40 or "...." in para or "reference only" in para or "Contents" in para:
+        return ""
+    out = ""
+    for sentence in re.findall(r".+?(?:[.!?](?=\s|$)|$)", para):
+        if out and len(out) + len(sentence) + 1 > limit:
+            break
+        out = f"{out} {sentence.strip()}".strip()
+        if len(out) >= 100:
+            break
+    return out
+
+
 def guess_group(name):
     n = name.lower()
     if "zaccaria" in n:
@@ -89,7 +118,7 @@ def main():
             title = guess_title(pdf)
             entry = {"slug": slug, "title": title, "group": guess_group(pdf.name),
                      "kind": "EM+" if title.endswith("EM+") else "Deluxe" if "Deluxe" in title else None,
-                     "description": "", "themes": ["zaccaria"] if "zaccaria" in pdf.name.lower() else [], "file": pdf.name, "cover": f"covers/{slug}.webp"}
+                     "description": guess_description(pdf), "themes": ["zaccaria"] if "zaccaria" in pdf.name.lower() else [], "file": pdf.name, "cover": f"covers/{slug}.webp"}
             added.append(title)
         entry["pages"], entry["bytes"] = pages, size   # the PDF may have been replaced
         by_file[pdf.name] = entry
