@@ -449,8 +449,10 @@
   "title": "Primal Carnage Remake",
   "group": "Magic Pixel",
   "kind": null,
-  "description": "",
+  "description": "Inspired by the intense battles of Primal Carnage, this pinball table brings the clash between humans and dinosaurs to life. Featuring classic elements like pop bumpers, slingshots, spot targets, drop targets, spinners, eject holes and ramps, the game offers dynamic and fast-paced action. Engage in thrilling modes with pinball staples such as combos, loops, multiball and multipliers, ensuring an immersive and high-energy experience. Will you dominate the battlefield, or fall prey to the prehistoric predators? The fight for survival awaits you!",
   "themes": [
+   "dinosaurs",
+   "prehistoric",
    "zaccaria"
   ],
   "file": "zaccaria-primal-carnage-remake-user-manual.pdf",
