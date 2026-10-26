@@ -445,6 +445,20 @@
   ]
  },
  {
+  "slug": "zaccaria-primal-carnage-remake",
+  "title": "Primal Carnage Remake",
+  "group": "Magic Pixel",
+  "kind": null,
+  "description": "",
+  "themes": [
+   "zaccaria"
+  ],
+  "file": "zaccaria-primal-carnage-remake-user-manual.pdf",
+  "cover": "covers/zaccaria-primal-carnage-remake.webp",
+  "pages": 7,
+  "bytes": 80844265
+ },
+ {
   "slug": "zaccaria-primal-carnage-retro",
   "title": "Primal Carnage Retro",
   "group": "Magic Pixel",
