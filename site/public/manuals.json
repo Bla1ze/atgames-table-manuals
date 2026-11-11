@@ -43,6 +43,20 @@
   ]
  },
  {
+  "slug": "zaccaria-battle-tank",
+  "title": "Battle Tank",
+  "group": "Magic Pixel",
+  "kind": null,
+  "description": "Battle Tank is a special award table that combines the straightforward design philosophy of classic pinball with a military combat theme and fast, action-focused gameplay.",
+  "themes": [
+   "zaccaria"
+  ],
+  "file": "zaccaria-battle-tank-user-manual.pdf",
+  "cover": "covers/zaccaria-battle-tank.webp",
+  "pages": 5,
+  "bytes": 33336481
+ },
+ {
   "slug": "zaccaria-blackbelt-deluxe",
   "title": "Blackbelt Deluxe",
   "group": "Magic Pixel",
